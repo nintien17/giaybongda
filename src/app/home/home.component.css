@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+}
+a{
+    text-decoration: none !important;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+/**   Slide CSS   **/
+.slide{
+    margin-top: 84px;
+}
+.heading{
+    position: absolute;
+    width: 322px;
+    left: 25%;
+    bottom: 25%;
+}
+.heading__header{
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #747691;
+    display: block;
+    margin-bottom: 20px;
+}
+.heading__content{
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+.theme-btn{
+    margin-right: 20px;
+}
+/** Banner CSS **/
+.banner{
+    padding: 30px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.banner__img{
+    margin: 0 15px;
+    overflow: hidden;
+}
+.banner__img img{
+    max-width: 100%;
+    transition: all 0.3s ease-out 0s;
+}
+.banner__img img:hover{
+    transform: scale(1.1);
+}
+/* Product CSS*/
+.product{
+    padding-top: 70px;
+}
+.h2__sub{
+    font-size: 40px;
+    color: #10111e;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.b__sub{
+    font-size: 14px;
+    color: #10111e;
+}
+.mytab li{
+    right: 0;
+    margin-left: 20px;
+}
+.mytab li a{
+    display: block;
+    font-size: 14px;
+    color: #10111e;
+    font-weight: 500;
+    padding: 18px 30px;
+    border: 2px solid #ecedff;
+    text-transform: uppercase;
+    line-height: 1;
+    letter-spacing: 2px;
+}
+.mytab li:first-child a{
+    background-color: #fe5245;
+    color: #fff
+}
+.mt-card{
+    margin-top: 50px;
+}
+.pb-product{
+    padding-bottom: 40px !important;
+}
+.card{
+    position: relative;
+    padding: 0 15px;
+    border: none !important;
+}
+
+.js-buy-ticket{
+    width: 100%;
+    padding: 11px 16px;
+    margin: 24px 0;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+.sale-tag{
+    position: absolute;
+    top: 30px;
+    left: 35px;
+}
+.sale-tag .sale{
+    padding: 8px 18px;
+    background-color: #fe5245;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+}
+/* upcoming-product CSS*/
+.upcoming-product{
+    position: relative;
+    padding-top: 50%;
+    background: url(/assets/Images/bg.jpg) top center / cover no-repeat;
+}
+.upc-product{
+    width: 630px;
+    height: auto;
+    position: absolute;
+    top: 15%;
+}
+.upc-price{
+    color: #fe4536;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.upc-product h1{
+    margin-bottom: 30px;
+}
+.upc-product h1 a{
+    font-size: 80px;
+    color: #10111E;
+    font-weight: 600;
+}
+.upc-product h1 a:hover{
+    color: #84B77C;
+    transition: ease-in 0.3s;
+}
+.upc-pro-info{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+.d-flex{
+    align-items: center;
+}
+.d-flex i{
+    font-size: 40px;
+    margin-right: 20px;
+    color: #84B77C;
+}
+.upc-pro-info li{
+    margin-bottom: 30px;
+}
+.upc-product p{
+    font-size: 14px;
+    color: #10111E;
+    line-height: 26px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+/* Laster-blog CSS*/
+.laster-blog{
+    padding: 95px 0 60px;
+}
+.heading-blog{
+    text-align: center;
+    color: #10111E;
+    margin-bottom: 50px;
+}
+.header-heading{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.sub-heading{
+    font-size: 14px;
+}
+.news-meta{
+    display: flex;
+    justify-content: space-between;
+}
+.news-meta span{
+    font-size: 13px;
+    margin: 10px 0 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.news-meta span:last-child,
+.news-meta span:nth-last-child(2){
+    color: #fe4536;
+    cursor: pointer;
+}
+.news-meta span:last-child:hover,
+.news-meta span:nth-last-child(2):hover{
+    color: #84B77C;
+}
+.blog-title{
+    font-size: 24px;
+    margin-bottom:15px;
+    line-height: 1.4;
+}
+.blog-text{
+    font-size: 14px;
+    margin-bottom: 15px;
+    line-height: 26px;
+    color: #10111E;
+    justify-content: inherit;
+}
+/*contact CSS*/
+.pd-bottom{
+    padding-bottom: 100px;
+}
+.contact-bage{
+    padding: 70px 50px 60px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #10111e;
+}
+.contact-img{
+    flex: 1;
+}
+.form-control{
+    width: 100%;
+    height: 70px;
+    border: 0;
+    padding: 0 50px;
+    text-transform: uppercase;
+    font-weight: 500;
+    background: #141626;
+    font-size: 12px;
+    color: #aaabc3;
+}
+.search{
+    width: 675px;
+}
+.submit{
+    height: 70px;
+    padding: 0 50px !important;
+}
+.contact__img span{
+    font-size: 30px;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 5px;
+}

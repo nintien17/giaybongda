@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+}
+a{
+    text-decoration: none !important;
+}
+/*  Header CSSE  */
+.header{
+    height: 84px;
+    color: #6f7172;
+    background: #ffffff;
+    box-shadow: 0 0 15px rgb(0 0 0 / 10%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.header__navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 84px;
+}
+.logo{
+    width: 30%;
+    padding: 25px 0;
+}
+.header__menu> ul> li> a{
+    display: block;
+    color: #10111E;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 84px;
+    padding: 0 25px;
+}
+.header__menu> ul> li:hover> a,
+.dropdown-sub li:hover a{
+    color: #fe5245;
+}
+.header__right ul li{
+    margin: 0 8px;
+}
+.header__right ul li a{
+    line-height: 84px;
+    padding: 16px 17px;
+    border-radius: 50%;
+    background-color: #fff1f0;
+    color: #fe5245;
+    font-weight: 500;
+}
+.subnav >li{
+    position: relative;
+}
+.subnav >li > .dropdown-menu > li{
+    display: block;
+}
+.dropdown-sub{
+    display: none;
+    position: absolute;
+    min-width: 250px;
+    background-color: #fff;
+    padding: 0;
+    box-shadow: 0px 12px 24px 0px rgb(254 69 54 / 30%);
+}
+.dropdown-sub li{
+    width: 100%;
+}
+.subnav li:hover .dropdown-sub{
+    display: block;
+}
+.dropdown-sub li a{
+    padding: 16px 20px;
+    color: #10111e;
+    font-size: 12px;
+    display: block;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.boder-top{
+    border-top: 1px solid #b0c6c64d;
+}
+.header__right ul li:hover a{
+    background-color: #fe5245;;
+    color: #fff;
+}
+/* footer CSS*/
+.footer{
+    display: flex;justify-content: space-between;
+    
+    padding: 20px 0;
+}
+.footer-title{
+    font-size: 20px;
+    color: #10111E;
+    font-weight: 600;
+    padding-left: 30px ;
+    margin-bottom: 38px;
+}
+.footer > .footer-one{
+    max-width: 250px;
+}
+.footer > .footer-one > .footer-text{
+    text-align: justify;
+}
+.footer > .footer-one > .footer-one-time{
+    display: flex;
+}
+.footer-img-logo{
+    width: 100px;
+    padding-bottom: 30px;
+}
+.footer-img-logo img{
+    max-width: 100%;
+}
+.footer-list{
+    margin-top: 26px;
+}
+
+.footer-five .footer-link-img{
+    display: block;
+    text-align: center;
+}
+.footer-five .footer-link-img img{
+    width: 285px;
+}
+.footer-one-time-img {
+    margin-right: 15px;
+}
+p.footer-one-time-Q {
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+p.footer-one-time-number {
+    font-size: 28px;
+}
+.footer-one-time{
+    margin-top: 30px;
+}
+.footer-time-img{
+    width: 40px;
+}
+.line{
+    width: 100%;
+    border: 1px solid #ccc;
+}
+/* Phan chung */
+.footer-list{
+    list-style: none;
+}
+.footer-list-item{
+    display: block !important;
+    margin-bottom: 14px;
+    padding: 0 30px;
+}
+.footer-list-item-link{
+    text-decoration: none;
+    font-size: 16px;
+    color: #10111E;
+}
+.footer-list-item:hover .footer-list-item-link{
+    color: #84B77C;
+    transition: all 0.3s ease-in;
+} 

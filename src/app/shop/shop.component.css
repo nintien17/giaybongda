@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+}
+a{
+    text-decoration: none !important;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.gird{
+    width: 70%;
+    margin: auto;
+}
+#product{
+    margin-top: 84px;
+}
+.product-us{
+    position: relative;
+    padding: 120px 0;
+    background: url(/assets/Images/page-title.png) top center / cover no-repeat; 
+}
+.product__sub{
+    text-align: center;
+}
+.heading__sub{
+    font-size: 60px;
+    font-weight: 600;
+    color: #10111E;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.back-menu {
+    display: inline-block;
+    padding: 24px 42px;
+    background-color: #fff;
+}
+.back-menu li {
+    position: relative;
+    padding:  0 13px;
+}
+.back-menu li a,
+.back-menu li span{
+    font-size: 16px;
+    color: #525470;
+    text-transform: uppercase;
+}
+
+.shop-area{
+    padding: 100px 0;
+}
+.product-showing{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.product-showing p{
+    width: 290px;
+    padding: 17px 30px;
+    text-align: center;
+    line-height: 1;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #747691;
+    border: 2px solid #000;
+}
+
+.pb-product{
+    padding-bottom: 40px !important;
+}
+.card{
+    position: relative;
+    padding: 0 15px;
+    border: none !important;
+}
+
+.js-buy-ticket{
+    width: 100%;
+    padding: 11px 16px;
+    margin: 24px 0;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+.sale-tag{
+    position: absolute;
+    top: 30px;
+    left: 35px;
+}
+.sale-tag .sale{
+    padding: 8px 18px;
+    background-color: #fe5245;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+}
+
+.woocommerce-pagination{
+    text-align: center;
+    margin-top: 20px;
+}
+.page-numbers li{
+    width: 65px;
+    height: 60px !important;
+    margin: 0 5px;
+}
+.page-numbers li a{
+    display: block;
+    padding: 20px 17px;
+    border-radius: 50%;
+    background-color: #fff1f0;
+    color: #fe5245;
+    font-size: 16px;
+    font-weight: 500;
+}
+.page-numbers li:first-child a,
+.page-numbers li a:hover{
+    background-color: #fe4536;
+    color: #fff;
+}
